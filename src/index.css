@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  /* scroll-bar-code */
+  .scroll-hidden::-webkit-scrollbar {
+    display: none !important;
+  }
+  body::-webkit-scrollbar {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(66, 245, 141) rgb(66, 245, 141);
+  }
+  body::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+  body::-webkit-scrollbar-track {
+    @apply bg-gradient-to-b from-slate-100 to-gray-100;
+  }
+  body::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-gradient-to-tr from-emerald-500 to-green-500;
+  }
+  /* container */
+  .travigo-container {
+    @apply w-[85vw] xl:w-[95vw] m-auto;
+  }
+
+  /* buttons */
+  .button-emrald {
+    @apply bg-gradient-to-b from-emerald-500 to-green-500 shadow-lg shadow-emerald-400 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-white sm:w-48;
+  }  
+  .button-light {
+    @apply bg-gradient-to-b from-white to-slate-100 shadow-lg shadow-slate-100 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-black sm:w-48;
+  }  
+
+  /* drop-shadow-emrald */
+  .drop-shadow-emrald {
+    filter: drop-shadow(0.1rem 0.1rem 1rem rgba(74 222 128 / 80%));
+  }
+
+  /* poupState */
+  .showpopup {
+    opacity: 1;
+    visibility: visible;
+    transform: skewY(0deg) translateY(10px);
+  }
+  .noshowpopup {
+    opacity: 0;
+    visibility: hidden;
+    transform: skewY(3deg) translateY(-30px); 
+  }
+
+    
+  .nav-default {
+    @apply flex items-center justify-center fixed top-8 lg:top-5 left-0 right-0 transition-all duration-300;
+  }
+  .nav-sticky{
+    @apply bg-white/80 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 flex items-center h-[9vh] fixed top-0 left-0 right-0 opacity-100 z-[100] shadow-sm shadow-slate-100;
+  }
+}
