@@ -9,7 +9,6 @@ export default function App() {
     <Routes>
       <Route path='/' element={<Homepage/>}  />
       <Route path='/feat' element={<New_features/>}  />
-      
-    </Routes>
+     </Routes>
   )
 }
