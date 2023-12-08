@@ -1,5 +1,5 @@
 {
-  "name": "travigo-travel-agency-app",
+  "name": "tourism-promotion-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.20",
+    "@mui/x-date-pickers": "^6.18.4",
+    "dayjs": "^1.11.10",
     "react": "^18.2.0",
+    "react-calendar": "^4.6.1",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

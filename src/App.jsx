@@ -1,21 +1,15 @@
+// App.js
 import React from 'react';
-import { Navbar, Hero, Footer, Memory, Explore, Advertise, Pricings, Banner, Newslatter } from './components';
-import { hero, navlinks, memory, placesAPI, brands, pricingapi, bannerAPI, footerAPI } from './data/travigodata';
+import {  Routes, Route } from 'react-router-dom';
+import Homepage from './pages/Homepage';
+import New_features from './pages/New_features';
 
-const App = () => {
+export default function App() {
   return (
-   <>
-      <Navbar navlinks={navlinks} />
-        <Hero hero={hero} />
-        <Memory memory={memory} />
-        <Explore title="Explore The Beauty of World" placesAPI={placesAPI} />
-        <Advertise brands={brands} />
-        <Pricings pricingapi={pricingapi} />
-        <Banner bannerAPI={bannerAPI} />
-        <Newslatter />
-      <Footer footerAPI={footerAPI} />
-   </>
-  );
-};
-
-export default App;
+    <Routes>
+      <Route path='/' element={<Homepage/>}  />
+      <Route path='/feat' element={<New_features/>}  />
+      
+    </Routes>
+  )
+}

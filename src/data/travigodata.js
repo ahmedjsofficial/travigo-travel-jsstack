@@ -28,7 +28,7 @@ import instagram from '../images/instagram.svg';
 import twitter from '../images/twitter.svg';
 import youtube from '../images/youtube.svg';
 
-import banner from '../images/banner.webp';
+import banner from '../images/kapu.jpg';
 
 export const brands = [
   { iconSrc: brand1 },
