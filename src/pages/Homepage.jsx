@@ -10,7 +10,7 @@ export default function Homepage() {
       <Memory memory={memory} />
       <Explore title="Explore The Beauty of World" placesAPI={placesAPI} />
       <Advertise brands={brands} />
-      <Pricings pricingapi={pricingapi} />
+      {/* <Pricings pricingapi={pricingapi} /> */}
       <Banner bannerAPI={bannerAPI} />
       <Newslatter />
     <Footer footerAPI={footerAPI} />
