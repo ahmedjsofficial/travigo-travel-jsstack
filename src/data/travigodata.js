@@ -28,7 +28,7 @@ import instagram from '../images/instagram.svg';
 import twitter from '../images/twitter.svg';
 import youtube from '../images/youtube.svg';
 
-import banner from '../images/banner.webp';
+import banner from '../images/kapu.jpg';
 
 export const brands = [
   { iconSrc: brand1 },
@@ -68,16 +68,15 @@ export const memory = {
 };
 
 export const placesAPI = [
-  { "placeImg": place1, "location": "Lahore", "distance": "3.0 hour dirve" },
-  { "placeImg": place2, "location": "Faisalabad", "distance": "2.5 hour dirve" },
-  { "placeImg": place3, "location": "Multan", "distance": "4.7 hour drive" },
-  { "placeImg": place4, "location": "Rawalpindi", "distance": "4 hour drive" },
-  { "placeImg": place5, "location": "Islamabad", "distance": "4.9 hour drive" },
-  { "placeImg": place6, "location": "Muree", "distance": "4.5 hour drive" },
-  { "placeImg": place7, "location": "Nathia Gali", "distance": "5.5 hour drive" },
-  { "placeImg": place8, "location": "Ayubia Gali", "distance": "5.1 hour drive" },
-  { "placeImg": place9, "location": "Bhurban", "distance": "5.1 hour drive" },
-  { "placeImg": place10, "location": "Gilgit", "distance": "5.1 hour drive" },
+  { "placeImg": place1, "location": "kapu", "distance": "3.0 hour dirve" },
+  { "placeImg": place2, "location": "Malpe", "distance": "2.5 hour dirve" },
+  { "placeImg": place3, "location": "Krishna Temple", "distance": "4.7 hour drive" },
+  { "placeImg": place4, "location": "Hanging Bride", "distance": "4 hour drive" },
+  { "placeImg": place5, "location": "Ananteshwar Temple", "distance": "4.9 hour drive" },
+  { "placeImg": place6, "location": "Ambapady", "distance": "4.5 hour drive" },
+  { "placeImg": place7, "location": "Venugopal Temple", "distance": "5.5 hour drive" },
+  { "placeImg": place8, "location": "End Point", "distance": "5.1 hour drive" },
+  { "placeImg": place9, "location": "Ottinene", "distance": "5.1 hour drive" },
 ];
 
 export const pricingapi = {

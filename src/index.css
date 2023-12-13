@@ -16,7 +16,7 @@
   body::-webkit-scrollbar {
     scroll-behavior: smooth;
     scrollbar-width: thin;
-    scrollbar-color: rgb(66, 245, 141) rgb(66, 245, 141);
+    scrollbar-color: rgb(56, 161, 100) rgb(245, 66, 224);
   }
   body::-webkit-scrollbar {
     @apply w-1.5;

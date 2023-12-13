@@ -10,7 +10,7 @@ const Explore = ({ title, placesAPI }) => {
             </div>
             <div className='grid items-center grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-5'>
                 {placesAPI?.map((val, i) => (
-                    <div key={i} className="flex items-center gap-5 sm:gap-3 rounded-lg hover:bg-emerald-300 transition-all duration-300 cursor-pointer hover:scale-105">
+                    <div key={i} className="flex items-center gap-5 sm:gap-3 rounded-lg hover:bg-pink-300 transition-all duration-300 cursor-pointer hover:scale-105">
                         <div className='flex items-center'>
                             <img src={val.placeImg} alt={val.location} className="w-20 h-20 sm:w-16 sm:h-16 rounded-lg filter drop-shadow-lg" />
                         </div>
